@@ -1,7 +1,35 @@
+h1, p, ul {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+}
+
+.logo {
+    color: #fff;
+    padding-left: 15rem;
+}
+
 .navmenu {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 1.5rem;
+    color: #fff;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.signout {
+    border: none;
+    border-radius: 1px;
+    background-color: #17a2b8;
+    color: #fff;
+    position: relative;
+    right: -12rem;
+    margin: 29px;
 }
