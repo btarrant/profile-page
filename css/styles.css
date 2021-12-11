@@ -48,9 +48,10 @@ h1, h2, p, ul {
     margin-left: 240px;
     margin-right: 370px;
     padding: 45px;
+    padding-top: 0px;
 }
 
-.editprofile > img {
+.editprofile img {
     border-radius: 180px;
     border: 5px;
     border-style: solid;
@@ -72,4 +73,29 @@ h1, h2, p, ul {
 .editprofile > p {
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.profileaccent {
+    background-color: #17a2b8;
+    margin-left: -50px;
+    margin-top: -5px;
+    margin-right: -50px;
+}
+
+#profile-location {
+    border-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#profile-location img {
+    width: 1.6rem;
+    height: 1.9rem;
+}
+
+.profilephoto {
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 0px;
 }
