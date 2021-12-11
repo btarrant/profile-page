@@ -171,3 +171,27 @@ h3 {
 .education-text2 p {
     font-size: 20px;
 }
+
+/* Connections Box */
+
+#containeraccent-two .connections {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.container-twoplus {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-twoplus a {
+    padding-left: 15px;
+    font-size: 23px;
+}
