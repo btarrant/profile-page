@@ -11,9 +11,9 @@ h3 {
 
 .parent { 
     display: grid; 
-    grid-template-columns: 2fr 1fr; 
-    grid-template-rows: 1.3fr 1fr; 
-    grid-column-gap: 31px;
+    grid-template-columns: 735px 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-column-gap: 30px;
     grid-row-gap: 30px; 
     }
 
@@ -59,16 +59,17 @@ h3 {
 /* Profile Box */
 
 .container {
-    padding-left: 17rem;
     border-style: solid;
     border-color: #cccccc;
     border-width: 5px;
     margin-top: 40px;
     margin-left: 240px;
-    margin-right: 140px;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
     padding: 45px;
+    height: 260px;
     padding-top: 0px;
+    padding-bottom: 100px;
+    
 }
 
 .container > h1 {
@@ -85,14 +86,14 @@ h3 {
 .container > p {
     margin-top: 2px;
     margin-bottom: 2px;
+    line-height: 20px;
 }
 
 .containeraccent {
     background-color: #17a2b8;
     margin-left: -50px;
-    margin-top: -140px;
+    margin-top: -164px;
     margin-right: -50px;
-    display: 492px 100px;
     height: 80px;
 }
 
@@ -101,15 +102,15 @@ h3 {
     display: flex;
     gap: 15px;
     align-items: center;
+    margin-top: 10px;
 }
 
 #icons img {
-    width: 1.6rem;
     height: 1.9rem;
 }
 
 #profilephoto {
-    margin-top: 130px;
+    margin-top: 160px;
     margin-left: 60px;
     border: 0px;
     border-radius: 180px;
@@ -123,7 +124,18 @@ h3 {
 /* Friend Requests Box */
 
 .div2 {
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.friend-requests {
+    padding: 15px;
+    border-style: solid;
+    border-color: #cccccc;
+    width: 240px;
+    height: 190px;
+    border-width: 5px;
+    margin-right: 160px;
+    padding-top: 2px;
 }
 
 .container-two {
@@ -131,9 +143,20 @@ h3 {
     border-style: solid;
     border-color: #cccccc;
     border-width: 5px;
-    margin-left: 80px;
-    margin-right: 500px;
+    margin-left: 240px;
     padding-top: 0px;
+    height: 220px;
+}
+
+.friends {
+    padding: 15px;
+    border-style: solid;
+    border-color: #cccccc;
+    width: 240px;
+    height: 300px;
+    border-width: 5px;
+    margin-right: 160px;
+    padding-top: 2px;
 }
 
 #containeraccent-two {
@@ -142,14 +165,15 @@ h3 {
     margin-left: -20px;
     margin-right: -20px;
     margin-top: -25px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     display: block;
 }
 
 #containeraccent-two h2 {
     color: #fff;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 27px;
+    font-size: 22px;
 }
 
 .icons-small {
@@ -158,13 +182,14 @@ h3 {
 }
 
 .icons-photo {
-        margin-left: 80px;
-        width: 3.6rem;
-        height: 3.1rem;
+        margin-left: 60px;
+        margin-right: 5px;
+        width: 50px;
+        height: 50px;
         display: grid; 
         grid-template-columns: repeat(4, 2fr); 
         grid-template-rows: repeat(2, 2fr); 
-        grid-column-gap: 20px;
+        grid-column-gap: 5px;
         grid-row-gap: 10px;
         border-radius: 100px;
         justify-content: space-evenly;
@@ -173,8 +198,9 @@ h3 {
 }
 
 .icons-photo h2 {
-    margin-top: 5px;
-    margin-left: 30px;
+    margin-top: 9px;
+    margin-left: 15px;
+    margin-right: 30px;
 }
 
 /* Education Box */
